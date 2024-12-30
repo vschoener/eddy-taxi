@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+//import Image from "next/image";
 
 
 const Tarifs = () => {
@@ -27,7 +27,7 @@ const Tarifs = () => {
         <div className="relative z-10 flex flex-col items-center justify-center h-64 text-center px-6">
         <h1 className="text-4xl font-bold mb-4 text-gray-100">Tarifs</h1>
         <p className="text-lg text-gray-300">
-          Nos tarifs sont basés sur les prix préfectoraux du Var pour l'année 2024, garantissant transparence et équité.
+          {"Nos tarifs sont basés sur les prix préfectoraux du Var pour l'année 2024, garantissant transparence et équité."}
         </p>
         </div>
       </section>
